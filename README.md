@@ -39,5 +39,5 @@ A powerful and feature-rich conversational AI assistant interface built with pur
     ```
 2.  **Deploy on Netlify:**
     -   Connect your GitHub repository to Netlify.
-    -   Create an environment variable named `OPENROUTER_API_KEY` and add your API key.
+    -   Create an environment variable named "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"; and add your API key.
     -   Deploy the site. Netlify will automatically use the `netlify.toml` file for configuration.
