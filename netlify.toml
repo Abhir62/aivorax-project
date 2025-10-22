@@ -1,0 +1,11 @@
+[build]
+  # This is the directory that contains your HTML, CSS, and JS files.
+  publish = "public"
+  # This is the directory where your serverless function is located.
+  functions = "netlify/functions"
+
+# This makes the API endpoints cleaner and proxies them to the function.
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/proxy-api/:splat"
+  status = 200
